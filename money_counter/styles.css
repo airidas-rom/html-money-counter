@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #62929E;
+  }
+
+  .container {
+    max-width: 500px;
+    margin: 10% auto;
+    background-color: #276FBF;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    
+}
+
+
+.cents-container,
+.paper-container {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    margin-right: 20px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.cents-container label,
+.paper-container label {
+    margin-bottom: 0px;
+    flex: 0 0 80px; /* Set a fixed width for the labels */
+}
+
+input[type="number"] {
+    width: 60px;
+    padding: 5px;
+    border: 1px solid #011627;
+    border-radius: 3px;
+    flex: 1;
+    margin: 5px;
+}
+
+.total-container {
+    text-align: center;
+    margin-top: 250px;
+    border: red solid 2px;
+    flex-basis: 25%;
+}
+
+.total-container p {
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+}

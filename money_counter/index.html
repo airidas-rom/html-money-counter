@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Money Counter</title>
+    <link rel="stylesheet" href="styles.css" />
+    <!-- Link to your CSS file -->
+  </head>
+  <body>
+    <div class="container">
+      <div class="cents-container">
+        <label for="cent-1">1 Cent:</label>
+        <input type="number" id="cent-1" placeholder="0" step="0.01" />
+        <label for="cent-2">2 Cents:</label>
+        <input type="number" id="cent-2" placeholder="0" step="0.01" />
+        <label for="cent-2">5 Cents:</label>
+        <input type="number" id="cent-5" placeholder="0" step="0.01" />
+        <label for="cent-2">10 Cents:</label>
+        <input type="number" id="cent-10" placeholder="0" step="0.01" />
+        <label for="cent-2">20 Cents:</label>
+        <input type="number" id="cent-20" placeholder="0" step="0.01" />
+        <label for="cent-2">50 Cents:</label>
+        <input type="number" id="cent-50" placeholder="0" step="0.01" />
+        <label for="eur-1">1 Eur:</label>
+        <input type="number" id="eur-1" placeholder="0" step="0.01" />
+        <label for="eur-1">2 Eur:</label>
+        <input type="number" id="eur-1" placeholder="0" step="0.01" />
+        <!-- Add other cents/metal denominations here -->
+      </div>
+      <div class="paper-container">
+        <label for="five">5 Eur:</label>
+        <input type="number" id="five" placeholder="0" />
+        <label for="ten">10 Eur:</label>
+        <input type="number" id="ten" placeholder="0" />
+        <label for="twenty">20 Eur:</label>
+        <input type="number" id="twenty" placeholder="0" />
+        <label for="fifty">50 Eur:</label>
+        <input type="number" id="fifty" placeholder="0" />
+        <label for="hundred">100 Eur:</label>
+        <input type="number" id="hundred" placeholder="0" />
+        <!-- Add other paper denominations here -->
+      </div>
+      <div class="total-container">
+        <p>Total: <span id="total">0</span></p>
+      </div>
+    </div>
+    <!-- Rest of your website content goes here -->
+
+    <script src="script.js"></script>
+  </body>
+</html>
